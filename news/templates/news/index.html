@@ -10,7 +10,36 @@
 
 {% endblock %}
 {% block content %}
-<h1>News</h1>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>News</h1>
+                {% for article in articles%}
+
+                <div class="card">
+                    <a href="{{article.link}}" target="_blank" rel="noopener noreferrer" title="Go to news article"
+                        style="text-decoration: none;">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="small">
+                                    <p class="card-text">
+                                    <h6 class="news-header">{{article.name}} <span class="small muted">(source:
+                                            {{article.provider}})</span></h6>
+                                    {{article.content}}....</p>
+                                    <div class="small muted ">{{article.date}}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+
 {% endblock %}
 
 {% block postloadjs %}{% endblock %}
