@@ -241,11 +241,57 @@ html{
   scroll-behavior: smooth;
 }
 
-/* animate dropdown menu*/
 
+    /* Hamburger css */
+
+.icon-bar {
+      width: 1.5rem; 
+      height: .12rem;
+      background-color: #B6B6B6;
+      display: block;
+      transition: all 0.2s;
+      margin-top: .3rem; 
+      margin-bottom: .3rem;
+   
+    }
+     
+.navbar-toggler {
+      border: none;
+      background: transparent !important;
+      padding-right: .4rem;
+    }
+
+    /* hamburger animation */
+.navbar-toggler .top-bar {
+        transform: rotate(45deg);
+        transform-origin: 10% 10%;
+      }
+       
+.navbar-toggler .middle-bar {
+        opacity: 0;
+      }
+       
+.navbar-toggler .bottom-bar {
+        transform: rotate(-45deg);
+        transform-origin: 10% 90%;
+      }
+       
+.navbar-toggler.collapsed .top-bar {
+        transform: rotate(0);
+      }
+.navbar-toggler.collapsed .middle-bar {
+        opacity: 1;
+      }
+       
+.navbar-toggler.collapsed .bottom-bar {
+        transform: rotate(0);
+      }
+    
+    
+    /* animate dropdown menu*/
 .animate {   
-  transition-timing-function: ease-in-out;   
-}
+        transition-timing-function: ease-in-out;   
+      }
 
 div.signs>p::first-letter{
   text-transform: uppercase; 
