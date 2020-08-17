@@ -8,3 +8,8 @@ def home(request):
         'article':article
     }
     return render (request, 'main/index.html', context)
+
+def about(request):
+    ''' function to render homepage'''
+
+    return render (request, 'main/about.html')
