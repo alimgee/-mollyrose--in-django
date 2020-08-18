@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'main',
     'news',
+    'story',
     'crispy_forms' # for styling register and log in forms
 ]
 
