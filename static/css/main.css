@@ -63,6 +63,10 @@ h1,h2,h3,h4,h5,h6{
   font-weight: bold;
 
 }
+h3{
+  font-size: 1rem!important;
+  font-family: 'Roboto Mono', monospace!important;
+}
 .first-character {
   color: #034a96;
   float: left;
@@ -169,7 +173,7 @@ a>i.fa{
     padding-left: .4rem!important;
 }
 .news-header{
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace!important;
 }
 .card-text{
   color: #034a96;
