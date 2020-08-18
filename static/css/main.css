@@ -7,7 +7,7 @@ body{
 }
 
 .navbar {
-    background-color: #ce4a7e;
+    background-color: #b1225a;
     color: blanchedalmond!important;
 
 }
@@ -17,7 +17,7 @@ body{
     
 }
 .nav-link:hover{
-  color: #ce4a7e!important;
+  color: #b1225a!important;
   background-color: black;
   font-weight: bolder;
   font-size: 1.1rem;
@@ -32,7 +32,7 @@ body{
 
 }
 .footer {
-    background-color: #ce4a7e;
+    background-color: #b1225a;
     color: #fafafa;
     font-weight: 100;
     padding: 1rem 2rem 1rem 2rem;
@@ -59,12 +59,12 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
   font-family: 'Indie Flower', cursive;
-  color: #ce4a7e;
+  color: #b1225a;
   font-weight: bold;
 
 }
 .first-character {
-  color: #007bff;
+  color: #034a96;
   float: left;
   font-family: Georgia;
   font-size: 3rem;
@@ -76,7 +76,7 @@ h1,h2,h3,h4,h5,h6{
 p{
   font-family: 'Roboto Mono', monospace;  
   letter-spacing:normal;
-  color: #007bff;
+  color: #034a96;
   
 }
 .display-4{
@@ -84,19 +84,19 @@ p{
 }
 .btn{
   color: blanchedalmond;
-  background-color: #ce4a7e;
+  background-color: #b1225a;
   font-weight: bold;
   border-color: #ce4a7f;
   border-radius: .75rem;
 }
 .btn:hover{
-  color: #ce4a7e;
+  color: #b1225a;
   background-color: black;
   font-weight: bolder;
   font-size: 1.1rem;
 }
 blockquote{
-  color: #ce4a7e;
+  color: #b1225a;
     font-weight: 900;
     font-family: 'Indie Flower', cursive;
     font-size: 2rem;
@@ -123,14 +123,14 @@ blockquote{
     background-clip: border-box;
     font-size: 1rem;
     padding: .5rem;
-    color: #007bff;
+    color: #034a96;
     
 }
 
 .control-label, .checkbox{
   margin-bottom: .25rem!important;
   margin-top: .25rem!important;
-  color: #007bff;
+  color: #034a96;
 }
 
 .twitter-embed {
@@ -172,7 +172,7 @@ a>i.fa{
   font-family: 'Roboto Mono', monospace;
 }
 .card-text{
-  color: #007bff;
+  color: #034a96;
   font-family: 'Roboto Mono', monospace;
   font-size: .75rem;
 }
@@ -184,7 +184,7 @@ a>i.fa{
 ul{
   font-size: 1rem;
   font-family: 'Roboto Mono', monospace;
-  color: #007bff;
+  color: #034a96;
 }
 .lead{
   color: blanchedalmond;
@@ -297,7 +297,7 @@ div.signs>p::first-letter{
   text-transform: uppercase; 
   font-size: 1rem; 
   letter-spacing:.2rem;
-  color: #ce4a7e;
+  color: #b1225a;
 }
 .small::first-letter{
   font-size: small;
