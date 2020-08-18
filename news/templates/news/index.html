@@ -14,7 +14,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <h1>News</h1>
+                <h2>News</h2>
                 {% for article in articles%}
 
                 <div class="card">
@@ -23,8 +23,8 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="small">
-                                    <h6 class="news-header">{{article.name}} <span class="small muted">(source:
-                                            {{article.provider}})</span></h6>
+                                    <h3 class="news-header">{{article.name}} <span class="small muted">(source:
+                                            {{article.provider}})</span></h3>
                                     <p class="card-text"> {{article.content}}....</p>
                                     <div class="small muted card-text">{{article.date}}</div>
                                 </div>
