@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'main',
     'news',
     'story',
+    'help',
     'crispy_forms' # for styling register and log in forms
 ]
 
