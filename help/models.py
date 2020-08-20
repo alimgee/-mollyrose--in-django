@@ -2,6 +2,9 @@ from django.db import models
 
 class Organisations(models.Model):
 
+    class Meta:
+        verbose_name_plural = 'Organisations'
+
     name = models.CharField(max_length=254)
     content = models.TextField()
     link = models.CharField(max_length=254)
@@ -11,6 +14,9 @@ class Organisations(models.Model):
 
     def __str__(self):
         return self.name
+    
+    def get_friendly_name(self):
+        return self.friendly_name
     
     class Meta:
         ordering = ('position',)
