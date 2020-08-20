@@ -19,24 +19,25 @@
             our hearts.</p>
       </div>
    </div>
-   {% %}
+   {% for organisation in Organisations %}
    <div class="row">
       <div class="col">
          <div class="card">
-            <a href="" style="text-decoration: none;">
-               <h3 class="news-header"></h3>
+            <a href="{{ organisation.link }}" style="text-decoration: none;">
+               <h3 class="news-header">{{ organisation.name }}</h3>
                <div class="card-horizontal">
-                  <div class="img-square-wrapper"><img class="" src="https://aoibheannspinktie.ie/imgs/logo.JPG"
+                  <div class="img-square-wrapper"><img class="" src="{{ organisation.logo }}"
                         alt="Card" style="width: 3rem; padding: 0.15rem;"></div>
                   <div class="card-body">
-                     <p class="card-text" style="margin-top: -1rem; font-size: 0.75rem;"></p>
+                     <p class="card-text" style="margin-top: -1rem; font-size: 0.75rem;">{{ organisation.content}}</p>
+                     
                   </div>
                </div>
             </a>
          </div>
       </div>
    </div>
-   {%%}
+   {% endfor %}
 </div>
 {% endblock %}
 
