@@ -7,5 +7,6 @@ urlpatterns = [
     path('news/' , include('news.urls')),
     path('story/' , include('story.urls')),
     path('helpout/' , include('help.urls')),
+    path('childhoodcancer/' , include('cancer.urls')),
     path('accounts/', include('allauth.urls')),
 ]
