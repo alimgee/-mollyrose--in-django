@@ -80,8 +80,12 @@ h3{
 p{
   font-family: 'Roboto Mono', monospace;  
   letter-spacing:normal;
-  color: #034a96;
-  
+
+}
+.text-primary{
+  font-family: 'Roboto Mono', monospace;  
+  letter-spacing:normal;
+  color: #034a96!important;
 }
 .display-4{
   color: blanchedalmond!important;
