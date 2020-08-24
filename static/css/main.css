@@ -103,6 +103,20 @@ p{
   font-weight: bolder;
   font-size: 1.1rem;
 }
+.primaryAction{
+  color: blanchedalmond;
+  background-color: #b1225a;
+  font-weight: bold;
+  border-color: #ce4a7f;
+  border-radius: .75rem;
+}
+.primaryAction:hover{
+  color: #b1225a;
+  background-color: black;
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+
 blockquote{
   color: #b1225a;
     font-weight: 900;
@@ -125,10 +139,6 @@ blockquote{
   background-color: blanchedalmond!important;
     margin-bottom: 1rem;
     border-radius: .75rem!important;
-    -webkit-box-shadow: -.8rem -.8rem 1rem 0 rgba(140, 140, 140, 0.1), 10px 10px 15px 0 rgb(40, 40, 40);
-    box-shadow: -.8rem -.8rem 1rem 0  rgba(140, 140, 140, 0.1), 10px 10px 15px 0 rgb(40, 40, 40);
-    border: none;
-    background-clip: border-box;
     font-size: 1rem;
     padding: .5rem;
     color: #034a96;
