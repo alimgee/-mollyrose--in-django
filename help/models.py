@@ -2,9 +2,6 @@ from django.db import models
 
 class Organisations(models.Model):
 
-    class Meta:
-        verbose_name_plural = 'Organisations'
-
     name = models.CharField(max_length=254)
     content = models.TextField()
     link = models.CharField(max_length=254)
@@ -20,3 +17,4 @@ class Organisations(models.Model):
     
     class Meta:
         ordering = ('position',)
+        verbose_name_plural = 'Organisations'
