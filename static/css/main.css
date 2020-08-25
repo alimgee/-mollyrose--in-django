@@ -333,6 +333,9 @@ table{
   font-size: 1rem;
 
 }
+#content-main{
+  text-align: center;
+}
 
 /* 
   ##Device = Desktops
