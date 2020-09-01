@@ -67,7 +67,6 @@ h1,h2,h3,h4,h5,h6{
 h3{
   font-size: 1rem!important;
   font-family: 'Roboto Mono', monospace!important;
-  color: #034a96;
 }
 a{
   color: #034a96;
@@ -85,6 +84,7 @@ a{
 p{
   font-family: 'Roboto Mono', monospace;  
   letter-spacing:normal;
+  color: #034a96;
 
 }
 .text-primary{
@@ -314,6 +314,7 @@ div.signs>p::first-letter{
 p {
   font-size: 1rem;
 }
+
 
 /* admin css*/
 .admin-content{
