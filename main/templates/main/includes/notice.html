@@ -1,0 +1,24 @@
+{% load static %}
+<section>
+{{notice.title}}
+    <div class="mb-4 container">
+        {% for note in notice %}
+        {% if note.show %}
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-text">
+                            <h2>{{ note.title}}</h2>
+                        </div>
+                        <p class="card-text">{{note.content}}.</p>
+                        <a title="Find out more information about notice" class="btn" href="{{ note.link}}"
+                            role="button" style="text-align: left;">{{note.link_title}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>
